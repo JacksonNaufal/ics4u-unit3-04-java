@@ -7,7 +7,7 @@
 * @version 1.0
 * @since   2020-11-18
 *
-* This is a string reverse program
+* This is a tower of hanoi program
 */
 import java.util.Scanner;
 
@@ -46,7 +46,7 @@ final class Main {
                                + endPeg);
         } else {
             hanoi(nOfDisks - 1, startPeg, pegNumber - startPeg - endPeg);
-            System.out.println("Move disk " + nOfDisks + " from the peg "
+            System.out.`println("Move disk " + nOfDisks + " from the peg "
                             + startPeg + " to peg" + endPeg);
             hanoi(nOfDisks - 1, pegNumber - startPeg - endPeg, endPeg);
         }
