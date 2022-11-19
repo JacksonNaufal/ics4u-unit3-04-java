@@ -77,7 +77,7 @@ final class Main {
                 System.out.println("\nPlease enter a positive integer");
             }
         } catch (java.util.InputMismatchException ex) {
-            System.err.print("\nThis is not an integer");
+            System.err.println("\nThis is not an integer");
         }
     }
 }
